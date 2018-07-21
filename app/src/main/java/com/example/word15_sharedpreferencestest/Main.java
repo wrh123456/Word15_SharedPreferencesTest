@@ -1,5 +1,6 @@
 package com.example.word15_sharedpreferencestest;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,7 @@ public class Main extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
         textView=(TextView)findViewById(R.id.textview1);
+
 
 
     }
